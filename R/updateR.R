@@ -56,7 +56,7 @@ updateR <- function(auto = TRUE, .Rprofile = NULL) {
     )
     return(invisible())
   }
-  check_compactability(status = latest)
+#  check_compactability(status = latest)
   installing <- list_packages()
 
   folderpath <- sprintf("/Users/%s/Downloads/",
